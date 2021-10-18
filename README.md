@@ -1,9 +1,11 @@
 
 # Web-Scraping
 
--Hi, this web-scraping project as the name suggests , is taking out chunks of data from the website - "https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results" and stores it into one nicely laid out Excel sheet, and seperate results in form of pdf. 
+// the purpose of this project is to extract information of worldcup 2019 from cricinfo and present
+// that in the form of excel and pdf scorecards
+// the real purpose is to learn how to extract information and get experience with js.
 
--Although Excel sheet is already in the repo, You can delete it ans run the program again to see it take form in real time!
+run the command "node 1_CricinfoExtractor.js --excel=Worldcup.csv --dataFolder=data --source=https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results" to see the prject take out data and form Excel sheet, and Pdf results in real time.
 
 
 npm libraries used :- 
